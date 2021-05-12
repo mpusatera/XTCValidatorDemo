@@ -18,9 +18,9 @@ namespace XTCValidatorDemo
         public ICommand EmailValidatorCommand { get; set; }
         public ICommand PasswordValidatorCommand { get; set; }
         public ICommand RepeatPasswordValidatorCommand { get; set; }
-        public bool EmailValid { get; set; } = false;
-        public bool PasswordValid { get; set; } = false;
-        public bool PasswordMatchValid { get; set; } = false;
+        public bool EmailValid { get; set; }
+        public bool PasswordValid { get; set; }
+        public bool PasswordMatchValid { get; set; } 
         private async Task ButtonExecution()
         {
             try
